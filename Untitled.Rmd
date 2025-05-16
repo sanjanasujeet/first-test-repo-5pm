@@ -1,0 +1,13 @@
+---
+title: "test-script"
+author: "Sanjana Sujeet"
+date: "2025-05-16"
+output: html_document
+---
+
+
+```{r}
+library(tidyverse)
+library(lterdatasampler)
+```
+
