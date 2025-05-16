@@ -11,3 +11,13 @@ library(tidyverse)
 library(lterdatasampler)
 ```
 
+```{r}
+ggplot(data = pie_crab, aes(x = latitude, y = size, color = latitude))+
+         geom_point()+
+  scale_color_gradient(low = "#378493", high = "#873930")
+  
+
+
+
+```
+
